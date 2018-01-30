@@ -1,0 +1,380 @@
+<nav class="top-nav">
+    <div class="container">
+
+        <!-- Links -->
+        <div class="links-inline pull-right">
+            <ul class="list-inline">
+                <li>
+                    <i class="fa fa-phone hidden-sm hidden-md hidden-lg"></i>
+                    <span class="hidden-xs">Contact: (562)457-7151</span>
+                </li>
+                <li>
+                    <i class="fa fa-phone hidden-sm hidden-md hidden-lg"></i>
+                    <span class="hidden-xs">Email: shanealprasadsp@gmail.com</span>
+                </li>
+                <li>
+                    <i class="fa fa-phone hidden-sm hidden-md hidden-lg"></i>
+                    <span class="hidden-xs">Location: 13628 Placid Dr. Whittier CA 90605</span>
+                </li>
+                <li>
+                    <i class="fa fa-phone hidden-sm hidden-md hidden-lg"></i>
+                    <span class="hidden-xs">Hours: M-F: 9pm-8pm Sat-Sun: 10pm-7pm</span>
+                </li>
+            </ul>
+        </div>
+        <!--/ Links -->
+
+    </div>
+</nav>
+
+<div id="sticky">
+
+    <header>
+        <div class="container">
+            <div class="row">
+
+                <!-- Logo -->
+                <div class="col-sm-12">
+                    <h1 ui-sref="home" class="text-center">Sanya`s Electronics</h1>
+                        <!--
+            <a ui-sref="home">
+              <img src="./img/logo.png" title="Logo" alt="Logo">
+            </a>
+          -->
+                </div>
+                <!--/ logo -->
+
+                <!-- Menu -->
+                <div class="col-sm-3"></div>
+                <div class="col-sm-6">
+                    <nav id="menu" class="navbar">
+                        <div class="container-fluid">
+                            <div class="navbar-header">
+                                <span id="category" class="visible-xs">Categories</span>
+                                <button type="button" class="btn btn-navbar navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                                    <i class="fa fa-bars"></i>
+                                </button>
+                            </div>
+                            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                                <ul class="nav navbar-nav">
+                                    <li class="dropdown">
+                                        <a href="about" class="dropdown-toggle" data-toggle="dropdown" role="button">Shoes
+                                            <i class="fa fa-angle-down"></i>
+                                        </a>
+                                        <span class="dropdown-triangle"></span>
+                                        <div class="dropdown-menu">
+                                            <div class="dropdown-inner">
+                                                <ul class="list-unstyled">
+                                                    <li>
+                                                        <a ui-sref="sandals">Sandals</a>
+                                                    </li>
+                                                    <li>
+                                                        <a ui-sref="sneakers">Sneakers</a>
+                                                    </li>
+                                                    <li>
+                                                        <a ui-sref="heels">Pumps & Heels</a>
+                                                    </li>
+                                                    <li>
+                                                        <a ui-sref="#">Oxfords & Derby</a>
+                                                    </li>
+                                                    <li>
+                                                        <a ui-sref="athletic">Athletic</a>
+                                                    </li>
+                                                    <li>
+                                                        <a ui-sref="flats">Flats</a>
+                                                    </li>
+                                                    <li class="see-all">
+                                                        <a ui-sref="shoes">See all shoes</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="dropdown">
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Bags
+                                            <i class="fa fa-angle-down"></i>
+                                        </a>
+                                        <span class="dropdown-triangle"></span>
+                                        <div class="dropdown-menu">
+                                            <div class="dropdown-inner">
+                                                <ul class="list-unstyled">
+                                                    <li>
+                                                        <a href="#">Satchel</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Tote</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Shoulder</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Clutch & Mini</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Crossbody</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Backpack</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Exotic</a>
+                                                    </li>
+                                                    <li class="see-all">
+                                                        <a href="#">See all bags</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="dropdown">
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Accessories
+                                            <i class="fa fa-angle-down"></i>
+                                        </a>
+                                        <span class="dropdown-triangle"></span>
+                                        <div class="dropdown-menu">
+                                            <div class="dropdown-inner">
+                                                <ul class="list-unstyled">
+                                                    <li>
+                                                        <a ng-click="getScarfs()">Scarfs</a>
+                                                    </li>
+                                                    <li>
+                                                        <a ng-click="getSunglasses()">Sunglasses</a>
+                                                    </li>
+                                                    <li>
+                                                        <a ng-click="getWallets()">Wallets</a>
+                                                    </li>
+                                                    <li class="see-all">
+                                                        <a ng-click="getAccessories()">See all accessories</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a ui-sref="login">Travel</a>
+                                    </li>
+                                    <li>
+                                        <a ui-sref="login">Jewelry</a>
+                                    </li>
+                                    <li class="dropdown">
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Decor
+                                            <i class="fa fa-angle-down"></i>
+                                        </a>
+                                        <span class="dropdown-triangle"></span>
+                                        <div class="dropdown-menu">
+                                            <div class="dropdown-inner">
+                                                <ul class="list-unstyled">
+                                                    <li>
+                                                        <a ui-sref="product">Test 1</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Test 2</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Test 3</a>
+                                                    </li>
+                                                    <li class="see-all">
+                                                        <a href="#">See all decor</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+                <!--/ Menu -->
+
+                <!-- Shopping Cart -->
+                <div class="col-sm-3">
+                </div>
+                <!--/ Shopping Cart -->
+
+            </div>
+        </div>
+    </header>
+</div>
+
+
+
+<div class="container">
+    <!-- Slideshow -->
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="slideshow">
+                <div>
+                    <a href="#">
+                            <img src="../img/comingsoon.jpg" alt="Main Banner 1">
+                        <!-- <img src="../img/image_holder_1140x561.png" alt="Main Banner 1"> -->
+                    </a>
+                </div>
+                <!--
+                <div>
+                    <a href="#">
+                        <img src="../img/image_holder_1140x561.png" alt="Main Banner 2">
+                    </a>
+                </div>
+                <div>
+                    <a href="#">
+                        <img src="../img/image_holder_1140x561.png" alt="Main Banner 3">
+                    </a>
+                </div>
+            -->
+            </div>
+        </div>
+    </div>
+    <!--/ Slideshow -->
+
+    <!-- Latest -->
+    <h3>Latest</h3>
+    <div class="row">
+
+        <!-- Product Item -->
+
+        <div ng-repeat="product in products | limitTo: page" class="product-grid col-xs-12 col-sm-6 col-md-3">
+            <div class="product-item">
+                <div class="item-overlay">
+                    <div class="clickable">
+                        <a href="#">{{product.product_Name}}</a>
+                    </div>
+                </div>
+                <div class="image">
+                    <a href="#">
+                        <!-- <img src="../img/image_holder_x800.png" alt="Product 1"> -->
+                        <img class="product-image" src={{product.product_Image}} alt="Product 1">
+                    </a>
+                </div>
+                <div class="caption">
+                    <div class="name">
+                        <a href="#">{{product.product_Name}}</a>
+                    </div>
+                    <div class="price">
+                        <span>
+                            <span>$</span>{{product.product_Cost}}</span>
+                    </div>
+                    <div class="cart">
+                        <button ng-click="getProduct(product)" type="button" class="btn btn-primary">View</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <button class="less-button" ng-click="lessProducts()">Less</button>
+            <button class="more-button" ng-click="moreProducts(products)">More</button>
+        </div>
+        <!--/ Product Item -->
+
+        
+        <!--/ Product Item -->
+    </div>
+
+
+
+    <!-- Banners -->
+    <div class="row">
+
+        
+    </div>
+    <!--/ Banners -->
+
+</div>
+
+<footer>
+    <div class="container">
+        <!-- Powered -->
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="powered">Sanya`s Electronics &copy; 2018</div>
+            </div>
+        </div>
+        <!--/ Powered -->
+
+        <!-- Payment Icons -->
+        <div class="row">
+            <div class="col-sm-12 payment">
+                <ul class="list-unstyled">
+                    <li>
+                        <i class="fa fa-cc-mastercard"></i>
+                    </li>
+                    <li>
+                        <i class="fa fa-cc-paypal"></i>
+                    </li>
+                    <li>
+                        <i class="fa fa-cc-amex"></i>
+                    </li>
+                    <li>
+                        <i class="fa fa-cc-visa"></i>
+                    </li>
+                    <li>
+                        <i class="fa fa-cc-discover"></i>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!--/ Payment Icons -->
+    </div>
+
+</footer>
+
+<div id="back-top">
+    <a href="">
+        <i class="fa fa-angle-up"></i>
+    </a>
+</div>
+
+<script>
+    $(document).ready(function () {
+
+        // Main banners slideshow
+        $(".slideshow").owlCarousel({
+            items: 6,
+            autoPlay: 6000,
+            singleItem: true,
+            navigation: true,
+            responsive: true,
+            navigationText: ['<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-right"></i>'],
+            pagination: true
+        });
+
+        // Brands carousel
+        $(".carousel").owlCarousel({
+            items: 6,
+            autoPlay: 3000,
+            navigation: true,
+            navigationText: ['<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-right"></i>'],
+            pagination: true
+        });
+
+        // Back top button
+        $("#back-top").hide();
+
+        $("#back-top a").click(function (e) {
+            e.preventDefault();
+            $("body, html").animate({
+                scrollTop: 0
+            }, 300);
+        });
+
+        $(window).scroll(function () {
+
+            // Fixed header
+            var nav = $("#sticky");
+
+            if ($(this).scrollTop() > 145) {
+                nav.addClass("fixed-header");
+            } else {
+                nav.removeClass("fixed-header");
+            }
+
+            // Back top button fadein and fadeout
+            if ($(this).scrollTop() > 100) {
+                $("#back-top").fadeIn();
+            } else {
+                $("#back-top").fadeOut();
+            }
+
+        });
+
+    });

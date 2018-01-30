@@ -1,0 +1,10 @@
+﻿<Properties StartupConfiguration="{8242854B-CE17-42B6-AEAE-9EFC910E43AD}|Default">
+  <MonoDevelop.Ide.ItemProperties.backStore PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>
